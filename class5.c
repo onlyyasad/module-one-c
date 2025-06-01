@@ -15,14 +15,14 @@ int main() {
     freopen("output.txt", "w", stdout);
     #endif
 
-    // integer to ascii: 
+    // ------------ integer to ascii: ----------- //
 
     int ascii = 80;
     char ch = ascii;
 
     printf("Char value of 87 is %c\n", ch);
 
-    // find next 3rd character:
+    //------- find next 3rd character: ----------//
 
     // char givenChar;
     // scanf("%c", &givenChar);
@@ -31,15 +31,23 @@ int main() {
 
     // printf("Character after 3 character of given input is: %c\n", givenChar);
 
-    // distance between 2 char:
+    // --------- distance between 2 char: ---------- //
 
-    char c1, c2;
+    // char c1, c2;
 
-    scanf("%c%c", &c1, &c2);
+    // scanf("%c%c", &c1, &c2);
 
-    int distance = c2 - c1;
+    // int distance = c2 - c1;
 
-    printf("Distance between char c1 and c2 is: %d\n", distance);
+    // printf("Distance between char c1 and c2 is: %d\n", distance);
+
+    // ---------- last two digit from 4 digit number: ---------- //
+
+    char c1, c2, c3, c4;
+    
+    scanf("%c%c%c%c", &c1, &c2, &c3, &c4);
+
+    printf("Last two digits: %c%c\n", c3, c4);
 
     return 0;
 }

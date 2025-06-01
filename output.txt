@@ -1,2 +1,2 @@
 Char value of 87 is P
-Distance between char c1 and c2 is: 5
+Last two digits: 14
