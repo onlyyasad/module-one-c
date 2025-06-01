@@ -1,2 +1,3 @@
-Char value of 87 is P
-Last two digits: 14
+Regular quotient for divident 7 and divisor 2 is: 3.500000
+Ceil quotient for divident 7 and divisor 2 is: 4
+Result: 10
