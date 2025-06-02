@@ -1,5 +1,18 @@
 #include <stdio.h>
 
+
+/**
+ * Topic:
+ * Assignment operators: = += -= /= *= %=
+ * Pre-increment, post-increment ++ --
+ * Bitwise operations & | ~ >> <<
+ * 
+ * Example:
+ * Check even or odd using bitwise operation
+ * Left shift = a * 2
+ * Right shift = a/2
+ * */
+
 int main(){
 	#ifndef ONLINE_JUDGE
 	freopen("input.txt", "r", stdin);
