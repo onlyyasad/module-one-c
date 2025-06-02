@@ -1,1 +1,2 @@
-Test 25
+Value of a = 21; value of b = 20; value of c = 11 , value of d = 11
+value of zeroeth bit is: 0
