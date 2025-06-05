@@ -12,11 +12,17 @@ int main(){
 	freopen("output.txt", "w", stdout);
 	#endif
 
-	int x;
+	int price, note;
 
-	scanf("%d", &x);
+	scanf("%d%d", &price, &note);
 
-	printf("Test input %d\n", x);
+	int difference = note - price;
+
+	if(price > note){
+		printf("No");
+	}else if(note - price > 5){
+		printf("No")
+	}
 
 	return 0;
 }
